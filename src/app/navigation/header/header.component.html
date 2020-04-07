@@ -1,0 +1,26 @@
+<mat-toolbar class="bg-dark">
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div  fxFlex.xs fxLayout fxLayoutAlign="end">
+    <a routerLink="/">LOGO</a>
+  </div>
+  <div fxFlex="80%" fxLayout fxLayoutAlign="flex-end center" fxHide.xs>
+    <ul fxLayout fxLayoutGap="10px" class="navigation-items mt-3 mr-5">
+      <li>
+        <a routerLink="/contact" role="tab">Kontakt</a>
+      </li>
+      <li>
+        <a routerLink="/about_us" role="tab">O nas</a>
+      </li>
+      <li>
+        <a routerLink="/" role="tab" class="active">Home</a>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>
+
+
+<router-outlet></router-outlet>

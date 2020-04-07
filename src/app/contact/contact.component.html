@@ -1,0 +1,59 @@
+<div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="center center">
+  <form action="mailto:maciejewskip77@tlen.pl" fxLayout="column" fxFlex.lt-sm="100%"  fxLayoutAlign="center center" gdAlignColumns="space-between" class="mt-5 mb-5">
+    <div fxLayoutGap="20px" fxFlex.lt-sm="100%" fxLayout.lt-sm="column">
+
+      <mat-form-field fxFlex.lt-sm="100%">
+        <mat-label>Imie</mat-label>
+        <input matInput>
+      </mat-form-field>
+
+      <mat-form-field fxFlex.lt-sm="100%">
+        <mat-label>Email</mat-label>
+        <input matInput>
+      </mat-form-field>
+
+    </div>
+
+    <mat-form-field>
+      <mat-label>Temat</mat-label>
+      <input matInput>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Wiadomość...</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+    <button mat-raised-button color="primary">Wyślij</button>
+  </form>
+
+  <div class="info-container mt-5 ml-md-5" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+    <mat-icon>location_on</mat-icon>
+    <span>Złotoryja ul. Szczęśliwa 31</span>
+    <mat-icon>local_phone</mat-icon>
+    <span>+48 509 768 540</span>
+    <mat-icon>email</mat-icon>
+    <span>maciejewskip77@tlen.pl</span>
+  </div>
+
+</div>
+
+<div class="iframe-wrapper" fxLayoutAlign="center center">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
+    width="80%" height="240" frameborder="0" class="iframe mt-5" allowfullscreen></iframe>
+</div>
+
+<footer class="bg-dark" fxLayout="column" fxLayoutAlign="center center">
+  <div fxFlex fxLayout fxLayoutGap="5px" class="mt-3 mb-3">
+    <a href="#">
+      <img src="../../assets/fotter-icons/001-facebook.svg" alt="facebook" height="24" width="24" />
+    </a>
+    <a href="#">
+      <img src="../../assets/fotter-icons/002-instagram.svg" alt="instagram" height="24" width="24" />
+    </a>
+    <a href="#">
+      <img src="../../assets/fotter-icons/003-google-plus.svg" alt="google+" height="24" width="24" />
+    </a>
+  </div>
+  <span class="text-white mb-4">Copyright © Adrian Turbiński</span>
+</footer>

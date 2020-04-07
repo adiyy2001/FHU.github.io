@@ -1,0 +1,30 @@
+.header{
+  height: 50%;
+}
+mat-icon {
+  margin-bottom: 20px;
+}
+
+.info-title {
+  // border-bottom: 5px solid #007bff;
+  padding-bottom: 10px;
+  // border-image: gradient(linear, left top, left bottom, from(#007bff), to(#fff));
+  border-bottom: 6px solid transparent;
+  border-image: linear-gradient(to right, #007bff , #fff 70%);
+  border-image-slice: 1;
+}
+
+.split-card {
+  height: 450px;
+}
+.info-card {
+  height: 100%;
+  margin-bottom: 10px;
+}
+h1 {
+  text-align: left;
+  font-family: "Times";
+  font-size: 48px;
+  line-height: 1.2;
+}
+
