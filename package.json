@@ -24,7 +24,7 @@
     "@angular/router": "~9.1.0",
     "angular-bootstrap-md": "^9.0.1",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lite-server": "^2.5.4",
     "material": "^0.4.3",
     "rxjs": "~6.5.4",
